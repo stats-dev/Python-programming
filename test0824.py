@@ -1,7 +1,7 @@
 
-## 2577 
+## 2577     
 ## 3개 자연수에서 그 곱의 결과에서 0부터 9까지 각각 숫자 몇번 쓰였는지 차례로 한 줄에 하나씩 출력한다.
-
+## test
 
 nums = []
 results = 1
@@ -11,8 +11,6 @@ for i in range(3):
 
 for num in nums:
     results *= num
-
-#print(results)
 
 from collections import Counter
 
