@@ -3,7 +3,7 @@ N = int(input())
 
 
 test = []
-dp = [0] * N
+dp = [1] * N
 
 for i in range(N):
     A,B = map(int, input().split())
@@ -19,7 +19,7 @@ for i in range(N):
         if arr[i][1] > arr[j][1]: ## 오른쪽 전못대를 기준으로 가져간다.
             dp[i] = max(dp[i], dp[j]+1)
         
-print(N-max(dp)-1)
+print(N-max(dp))
 
 
 # ### https://seohyun0120.tistory.com/entry/가장-긴-증가하는-부분-수열LIS-완전-정복-백준-파이썬
