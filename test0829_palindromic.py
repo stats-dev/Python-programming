@@ -18,5 +18,6 @@ for i in range(len(s)):
         result.append(list(s)[i])
     else:
         s = s[:len(s)-1]
+        
 
 print(''.join(result))
